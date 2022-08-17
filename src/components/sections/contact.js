@@ -38,6 +38,17 @@ const StyledContactSection = styled.section`
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
+    padding: calc(1.25rem - calc(var(--fz-sm) * 0.5)) calc(1.75rem - calc(var(--fz-sm) * 0.5));
+    svg {
+      width: auto;
+      // margin: calc(var(--fz-sm) * 0.5);
+      margin: calc(-(var(--fz-sm) * 0.25));
+      height: calc(var(--fz-sm) * 1.5); 
+      padding: 0 calc(var(--fz-sm) * 0.25);
+    }
+    span {
+      margin: calc(var(--fz-sm) * 0.5);
+    }
   }
 `;
 
@@ -65,7 +76,10 @@ const Contact = () => {
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
-        Say Hello
+        <span>Hit me up</span>
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M20.563 3.34a1.002 1.002 0 0 0-.989-.079l-17 8a1 1 0 0 0 .026 1.821L8 15.445v6.722l5.836-4.168 4.764 2.084a1 1 0 0 0 1.399-.85l1-15a1.005 1.005 0 0 0-.436-.893zm-2.466 14.34-5.269-2.306L16 9.167l-7.649 4.25-2.932-1.283 13.471-6.34-.793 11.886z"></path>
+        </svg>
       </a>
     </StyledContactSection>
   );
