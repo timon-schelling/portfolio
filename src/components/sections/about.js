@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Kotlin', 'Rust', 'Kubernetes', 'Go', 'Java', 'TypeScript', 'Python'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,33 +135,29 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello, I’m Timon Schelling as far as I can tell from planet Earth dimension C-137.
+              You could call me really obsessed with science, math and technology.
+              When I’m once again out of portal gun charge I consider problem solving a skill that is worth practicing.
+              Once I found a problem or project I’m really into it like a Mr. Me6 but hopefully without the dying after success.
+              I truly believe in opensource.
+              No intergalactic government should be allowed to keep knowledge as their property.
+              This website is all about me, my projects and hopefully one day my research.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
+              I was born in 2002, so still quite young, but with a in my eyes respectable amout of experience.
+              I started coding at the age of 12 after getting a book about it from a relative.
+              Since than I spend thousands of hours coding. 
+              Including lots of <a href="https://github.com/timon-schelling/" target="_blank" rel="noreferrer">opensource projects</a>.
+            <p/>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              At the age of 15 I got my first developer job at a start-up named <a href="http://contentup.de/">Content Up</a>{' '}
+              and than switched to <a href="https://www.openknowledge.de/">Open Knowledge</a> in late 2020.
+              But never stopped believing in opensource.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few technologies I’ve been working with recently:</p></p>
           </div>
 
           <ul className="skills-list">
@@ -177,7 +173,7 @@ const About = () => {
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
-              alt="Headshot"
+              alt="me"
             />
           </div>
         </StyledPic>
