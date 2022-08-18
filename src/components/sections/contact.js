@@ -38,16 +38,17 @@ const StyledContactSection = styled.section`
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
-    padding: calc(1.25rem - calc(var(--fz-sm) * 0.5)) calc(1.75rem - calc(var(--fz-sm) * 0.5));
+    padding: calc(1.25rem - calc(var(--fz-md) * 0.25)) calc(1.75rem - calc(var(--fz-md) * 0.5));
+    font-size: var(--fz-md);
     svg {
       width: auto;
       // margin: calc(var(--fz-sm) * 0.5);
-      margin: calc(-(var(--fz-sm) * 0.25));
-      height: calc(var(--fz-sm) * 1.5); 
-      padding: 0 calc(var(--fz-sm) * 0.25);
+      margin: calc(-(var(--fz-md) * 0.25));
+      height: calc(var(--fz-md) * 1.5); 
+      padding: 0 calc(var(--fz-md) * 0.25);
     }
     span {
-      margin: calc(var(--fz-sm) * 0.5);
+      margin: calc(var(--fz-md) * 0.5);
     }
   }
 `;
