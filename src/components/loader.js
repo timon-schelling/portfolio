@@ -68,7 +68,7 @@ const Loader = ({ finishLoading }) => {
       })
       .add({
         targets: '.loader',
-        duration: 2000,
+        duration: 200,
         easing: 'easeInOutQuart',
         opacity: 0,
         zIndex: -1,
