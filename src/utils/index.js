@@ -4,7 +4,8 @@ export const hex2rgba = (hex, alpha = 1) => {
 };
 
 export const navDelay = 1000;
-export const loaderDelay = 2000;
+export const sideDelay = 300;
+export const loaderDelay = 1800;
 
 export const KEY_CODES = {
   ARROW_LEFT: 'ArrowLeft',
