@@ -4,8 +4,8 @@ const variables = css`
   :root {
     --dark-navy: #070707;
     --navy: #111111;
-    --light-navy: #151515;
-    --lightest-navy: #272727;
+    --light-navy: #232323;
+    --lightest-navy: #323232;
     --navy-shadow: rgba(2, 2, 2, 0.7);
     --dark-slate: #525252;
     --slate: #8F8F8F;
