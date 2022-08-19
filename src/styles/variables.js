@@ -2,17 +2,17 @@ import { css } from 'styled-components';
 
 const variables = css`
   :root {
-    --dark-navy: #111111;
-    --navy: #151515;
-    --light-navy: #272727;
-    --lightest-navy: #343434;
+    --dark-navy: #070707;
+    --navy: #111111;
+    --light-navy: #151515;
+    --lightest-navy: #272727;
     --navy-shadow: rgba(2, 2, 2, 0.7);
     --dark-slate: #525252;
     --slate: #8F8F8F;
     --light-slate: #A6A6A6;
     --lightest-slate: #BDBDBD;
     --white: #E8E8E8;
-    --green: #6CA26D;
+    --green: #5DC15F;
     --green-tint: #88D18A1A;
     --pink: #f57dff;
     --blue: #57cbff;
