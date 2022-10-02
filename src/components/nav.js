@@ -21,6 +21,7 @@ const StyledHeader = styled.header`
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
+  transition: var(--transition);
   
   @media (max-width: 1080px) {
     padding: 0 40px;
