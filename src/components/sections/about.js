@@ -145,15 +145,15 @@ const About = () => {
             </p>
 
             <p>
-              I was born in 2002, so still quite young, but with a in my eyes respectable amout of experience.
+              I was born in 2002, so still quite young, but with a in my eyes respectable amount of experience.
               I started coding at the age of 12 after getting a book about it from a relative.
-              Since than I spend thousands of hours coding. 
+              Since then I spent thousands of hours coding.
               Including lots of <a href="https://github.com/timon-schelling/" target="_blank" rel="noreferrer">opensource projects</a>.
             <p/>
 
             <p>
               At the age of 15 I got my first developer job at a start-up named <a href="http://contentup.de/">Content Up</a>{' '}
-              and than switched to <a href="https://www.openknowledge.de/">Open Knowledge</a> in late 2020.
+              and then switched to <a href="https://www.openknowledge.de/">Open Knowledge</a> in late 2020.
               But never stopped believing in opensource.
             </p>
 
