@@ -12,6 +12,7 @@ import {
   IconLinkedin,
   IconLoader,
   IconLogo,
+  IconMatrix,
   IconPlayStore,
   IconStar,
   IconTwitter,
