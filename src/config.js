@@ -3,6 +3,10 @@ module.exports = {
 
   socialMedia: [
     {
+      name: 'Matrix',
+      url: 'https://matrix.to/#/@timon:beeper.com'
+    },
+    {
       name: 'GitHub',
       url: 'https://github.com/timon-schelling',
     },
