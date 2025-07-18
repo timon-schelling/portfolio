@@ -3,9 +3,8 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Timon Schelling',
-    description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://timokrates.de', // No trailing slash allowed!
+    description: 'Timon Schelling is a software engineer and open source enthusiast. He loves building software and contributing to the open source community.',
+    siteUrl: 'https://timon.zip', // No trailing slash allowed!
     image: '/me.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [

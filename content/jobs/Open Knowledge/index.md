@@ -3,7 +3,7 @@ date: '2020-11-01'
 title: 'Developer'
 company: 'Open Knowledge GmbH'
 location: 'Oldenburg, Germany'
-range: 'November 2020 - Presence'
+range: 'November 2020 - November 2023'
 url: 'https://www.openknowledge.de/'
 ---
 
